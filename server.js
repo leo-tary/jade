@@ -1,5 +1,5 @@
-const generateReferenceId = require("./util/generateReferenceId");
 const players = require("./data/players");
+const generateReferenceId = require("./util/generateReferenceId");
 
 /**
  *  Find player with a given id
