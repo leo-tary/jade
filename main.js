@@ -1,3 +1,4 @@
+const generateReferenceId = require("./util/generateReferenceId");
 const players = require("./data/players");
 
 /**
@@ -15,3 +16,4 @@ const player = players.find((player) => {
 player["score"] = 92;
 console.log(`Updated player`, player);
 console.log(`Players updated`, players);
+console.log(`Unique Reference:`, generateReferenceId());
