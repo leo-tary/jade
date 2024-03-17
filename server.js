@@ -17,3 +17,13 @@ player["score"] = 92;
 console.log(`Updated player`, player);
 console.log(`Players updated`, players);
 console.log(`Unique Reference:`, generateReferenceId());
+
+/**
+ *  filter players having score > 30
+ */
+
+const filteredPlayers = players.filter((player) => {
+  return player.score > 30;
+});
+
+console.log(`filtered players`, filteredPlayers);
