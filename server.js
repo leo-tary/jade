@@ -10,12 +10,12 @@ const player = players.find((player) => {
 });
 
 /**
- *  Update player's current score having id 2 to 92
+ *  Update player's current score having id 2 to 97
  */
 
-player["score"] = 92;
-console.log(`Updated player`, player);
-console.log(`Players updated`, players);
+player["score"] = 97;
+// console.log(`Updated player`, player);
+// console.log(`Players updated`, players);
 console.log(`Unique Reference:`, generateReferenceId());
 
 /**
